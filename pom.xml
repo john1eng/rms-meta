@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.revature</groupId>
+  <artifactId>rms-meta</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>rms-meta</name>
+  <url>http://www.revature.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <modules>
+    <!--<module>rms-auth-service</module>-->
+    <module>rms-batch-service</module>
+    <module>rms-campus-service</module>
+    <module>rms-config-service</module>
+    <module>rms-discovery-service</module>
+    <module>rms-employee-service</module>
+    <module>rms-gateway-service</module>
+    <module>rms-mail-service</module>
+    <!--<module>rms-search-service</module>-->
+    <module>rms-work-order-service</module>
+  </modules>
+</project>
