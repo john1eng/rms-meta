@@ -1,6 +1,7 @@
 {
   "projects": {
     "rms-ui": "https://github.com/revaturelabs/rms-ui",
+    "rms-core": "https://github.com/revaturelabs/rms-core",
     "rms-config-service": "https://github.com/revaturelabs/rms-config-service",
     "rms-discovery-service": "https://github.com/revaturelabs/rms-discovery-service",
     "rms-gateway-service": "https://github.com/revaturelabs/rms-gateway-service",
